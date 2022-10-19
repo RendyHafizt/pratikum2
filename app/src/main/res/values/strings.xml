@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Project1_RendyHafizguspandy</string>
+    <!-- Bagian Identitas Diri -->
+    <string name="nama">Rendy hafiz guspandy</string>
+    <string name="nim">232010006</string>
+    <string name="fakultas">Pendidikan MIPA dan Tekonologi</string>
+    <string-array name="prodi">
+        <item> Pendidikan Matematika</item>
+        <item> Pendidikan Fisika</item>
+        <item> Pendidikan Teknologi Informasi</item>
+        <item> Pendidikan Biologi</item>
+    </string-array>
+
+    <!-- Bagian Aplikasi -->
+    <string name="pertama">Ini adalah desain pertama di android</string>
+    <string name="pesan">Tuliskan pesan anda disini</string>
+    <string name="bPertama">Tekan</string>
+    <string name="bKedua">Lepas</string>
+    <string name="cb1">Pilihan 1</string>
+    <string name="cb2">Pilihan 2</string>
+    <string name="jk1">Laki-Laki</string>
+    <string name="jk2">Perempuan</string>
+
+    <!-- Bagian LinearLayout2 -->
+    <string name="kepada">Kepada</string>
+    <string name="subyek">Subyek</string>
+    <string name="isi">Isi Pesan</string>
+    <string name="kirim">Kirim</string>
+
+</resources>

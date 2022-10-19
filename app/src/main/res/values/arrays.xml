@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/a10</item>
+        <item>@drawable/a11</item>
+        <item>@drawable/a13</item>
+    </array>
+    <!-- Tambahin Icon Baru -->
+    <array name="iconsbaru">
+        <item>@drawable/powericon</item>
+        <item>@drawable/homeicon</item>
+        <item>@drawable/informationicon</item>
+    </array>
+
+    <array name="colors">
+        <item>@color/pink</item>
+        <item>@color/green_matcha</item>
+        <item>@color/biru_muda</item>
+    </array>
+</resources>

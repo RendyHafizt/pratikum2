@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Rendy hafiz guspandy/Rendy Hafiz Guspandy/app/src/main/res/drawable/layer_drawable1.xml" value="0.187" />
+        <entry key="..\:/Rendy hafiz guspandy/Rendy Hafiz Guspandy/app/src/main/res/drawable/layer_drawable2.xml" value="0.187" />
+        <entry key="..\:/Rendy hafiz guspandy/Rendy Hafiz Guspandy/app/src/main/res/drawable/layer_drawble.xml" value="0.187" />
+        <entry key="..\:/Rendy hafiz guspandy/Rendy Hafiz Guspandy/app/src/main/res/layout/activity_linear1.xml" value="0.22" />
+        <entry key="..\:/Rendy hafiz guspandy/Rendy Hafiz Guspandy/app/src/main/res/layout/activity_linear2.xml" value="0.15806159420289856" />
+        <entry key="..\:/Rendy hafiz guspandy/Rendy Hafiz Guspandy/app/src/main/res/layout/activity_linear_acitivy3.xml" value="0.1" />
+        <entry key="..\:/Rendy hafiz guspandy/Rendy Hafiz Guspandy/app/src/main/res/layout/activity_linear_actitivy3.xml" value="0.15806159420289856" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
