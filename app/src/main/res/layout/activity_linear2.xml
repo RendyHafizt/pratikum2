@@ -31,11 +31,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/button_text"
-        android:hint="Kepada"/>
+        android:hint="Kepada"
+        android:id="@+id/kepada"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Subyek"/>
+        android:hint="Subyek"
+        android:id="@+id/subyek"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"

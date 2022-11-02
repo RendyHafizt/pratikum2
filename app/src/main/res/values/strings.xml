@@ -26,5 +26,9 @@
     <string name="subyek">Subyek</string>
     <string name="isi">Isi Pesan</string>
     <string name="kirim">Kirim</string>
+    
+    <!-- Login -->
+    <string name="copyright">Created By Rendy Hafiz Guspandy \n IKIP PGRI PONTIANAK</string>
+    <string name="username">Masukan nama anda</string>
 
 </resources>
