@@ -27,7 +27,7 @@
             android:gravity="center"
             android:textStyle="bold"
             android:textSize="16dp"
-            android:text="Proyek 1 Rendy"/>
+            android:text="Proyek 1 Rendy Hafiz Guspandy"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -45,12 +45,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/kepada">Kepada</TextView>
+        android:text="@string/kepada"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/button_text"
-        android:hint="@string/kepada"/>
+        android:hint="@string/kepada"
+        android:id="@+id/kepadaa"/>
     </LinearLayout>
 
     <LinearLayout
@@ -62,21 +63,24 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/subyek">Subyek</TextView>
+        android:text="@string/subyek"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/button_text"
-        android:hint="@string/subyek"/>
+        android:hint="@string/subyek"
+        android:id="@+id/subyekk"/>
     </LinearLayout>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="top"
-        android:hint="Tuliskan pesan anda disini" />
+        android:hint="Tuliskan pesan anda disini"
+        android:id="@+id/pesann"/>
 
     <Button
+        android:id="@+id/kirim"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="right"

@@ -2,21 +2,34 @@ package com.example.project1_rendyhafizguspandy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 public class LinearActivity2 extends AppCompatActivity {
-    String user;
-    EditText eKepada;
+    private Button button;
+    private EditText eKepada,subject,pesan;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linear2);
 
-        user = getIntent().getExtras().getString("user");
-
+        button = findViewById(R.id.btn);
         eKepada = findViewById(R.id.kepada);
+        subject = findViewById(R.id.subyek);
+        pesan = findViewById(R.id.pesan);
 
-        eKepada.setText(user);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LinearActivity2.this,LinearAcitivy3.class);
+                intent.putExtra("kepada",eKepada.getText().toString());
+                intent.putExtra("subyek",subject.getText().toString());
+                intent.putExtra("pesan",pesan.getText().toString());
+                startActivity(intent);
+            }
+        });
+        }
     }
-}

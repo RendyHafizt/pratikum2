@@ -43,11 +43,13 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="top"
-        android:hint="Tuliskan pesan anda disini" />
+        android:hint="Tuliskan pesan anda disini"
+        android:id="@+id/pesan"/>
     <Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:textColor="@color/button_text"
-        android:text="Kirim" />
+        android:text="Kirim"
+        android:id="@+id/btn"/>
 </LinearLayout>
